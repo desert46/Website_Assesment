@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'Public Sans';
+}
+.hero-image{
+    background-image: url("./images/hero-image.jpg");
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text{
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 1.5em;
+    width: 100%;
+    font-size: 4rem;
+}
+.why-join-image{
+    width: 100%;
+}
+.why-join{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    gap: 10%;
+}
+img{
+    width: 100%;
+}
+h1{
+   font-size: 42px; 
+}
+p{
+    font-size: 18px;
+}
+
+.explore-clubs{
+    text-align: center;
+    background-color: rgb(0, 78, 66);
+    padding: 1%;
+    color: white;
+}
+.three-cards-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 12%;
+    padding-bottom: 5%;
+}
+.card{
+    background-color: white;
+    color: black;
+}
+
+
+  
+
