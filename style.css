@@ -29,34 +29,34 @@
     gap: 10%;
 }
 img{
-    width: 100%;
+   width: 100%;
 }
 h1{
    font-size: 42px; 
 }
 p{
-    font-size: 18px;
+   font-size: 18px;
 }
-
 .explore-clubs{
-    text-align: center;
     background-color: rgb(0, 78, 66);
-    padding: 1%;
-    color: white;
 }
-.three-cards-columns{
+.explore-clubs-title{
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+.card-rows{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 80%;
-    margin: auto;
-    gap: 12%;
-    padding-bottom: 5%;
+    gap: 10%;
+    padding: 2%;
+    padding-left: 6%;
+    padding-top: 0%;
+    
 }
-.card{
-    background-color: white;
-    color: black;
+.cards{
+    width: 90%;
+    color: white;
 }
-
-
   
 
